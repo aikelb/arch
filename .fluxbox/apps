@@ -1,0 +1,10 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Deco]	{0x5ff}
+  [Layer]	{2}
+[end]
+[app] (name=xterm) (class=XTerm)
+  [Workspace]	{0}
+  [Head]	{0}
+  [Deco]	{NORMAL}
+[end]
