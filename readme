@@ -1,4 +1,7 @@
 Reminder
 
-xorg.conf keyboard es
-overscan /boot/config.txt
+  - Install X11: pacman -S xorg-xinit xorg-server xorg-server-utils
+  - Install display driver: pacman -S xf86-video-fbdev xf86-video-mesa
+  - Install Desktop & Login Manager
+  - Set in xorg.conf keyboard es
+  - Change overscan in /boot/config.txt
