@@ -4,4 +4,11 @@ Reminder
   - Install display driver: pacman -S xf86-video-fbdev xf86-video-mesa
   - Install Desktop & Login Manager
   - Set in xorg.conf keyboard es
-  - Change overscan in /boot/config.txt
+  - In /boot/config.txt
+    ·  Change overscan
+    ·  hdmi_drive=x
+       - Where 'x' corresponds to:
+         0 for Auto
+         1 for Analog out
+         3 for HDMI
+
